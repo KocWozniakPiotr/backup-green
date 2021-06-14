@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# !!! READ THIS !!!
-# Change permission fo this file to make it executable : sudo chmod +x backup-green.sh , sudo chmod 775 backup-green.sh
-# !ALWAYS! execute the extract command with sudo to preserve all permissions, user and group !!!
-# to extract use command < sudo tar -xvf greenlight-XX-XX-XX.bkp -C your_greenlight_directory >
-# DO NOT OVERWRITE YOUR GREENLIGHT DIRECTORY! DO A BACKUP OR REMOVE IT BEFORE EXTRACTING NEW ONE
-# to auto execute it daily use nohup command below and accept with your root password once
-# sudo sh -c 'nohup ./backup-green.sh &'
-
 # makes a backup and parse the string from DATE to the file name
 backup ()
 {

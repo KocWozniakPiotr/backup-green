@@ -7,7 +7,7 @@ sudo chmod +x backup-green.sh
 sudo chmod 775 backup-green.sh 
 ```
 
-###### !ALWAYS! execute the extract command with `sudo` to preserve all permissions, user and group inside the archive !!! 
+###### ALWAYS execute the extract command with `sudo` to preserve all permissions, user and group inside the archive !!! 
 ###### to extract use command: 
 ```
 sudo tar -xvf greenlight-XX-XX-XX.bkp -C ~/ 

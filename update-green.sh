@@ -26,6 +26,5 @@ beginUpdate ()
       echo "$(backup)"
    fi
 }
-
 # Default repeat every hour (3600 seconds)
 while true; do beginUpdate; sleep 3600; done

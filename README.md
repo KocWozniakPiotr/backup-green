@@ -12,5 +12,7 @@ sudo tar -xvf greenlight-XX-XX-XX.bkp -C ~/
 ``` 
 ###### DO NOT OVERWRITE YOUR GREENLIGHT DIRECTORY! DO A BACKUP OR MOVE IT SOMEWHERE BEFORE EXTRACTING NEW ONE 
 ###### to auto execute it and run in background use `nohup` command below and accept with your root password once 
-###### `sudo sh -c 'nohup ./backup-green.sh &' ` 
+```
+sudo sh -c 'nohup ./backup-green.sh &' 
+``` 
 
